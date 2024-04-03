@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(46, 44, 59);
+}
+
+/* ===============to hide the scrollbar if the content  exceedd=========================================================== */
+html {
+  overflow: visible;
+}
+
+
+.border:hover {
+  border: 2.5px solid rgb(255, 238, 238);
+}
+
+/* ------------------------------Profie-------------------------------------------------------------------- */
+
+
+
+.Profile {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 3.5rem;
+  width: 100%;
+  margin: 0auto;
+  /* border: 2px solid yellow; */
+  max-width: 100%;
+}
+
+.imagediv {
+  height: 5rem;
+  width: 5rem;
+  max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin-right: 1em;
+  /* border: 2px solid rgb(255, 0, 0); */
+}
+
+
+.imagediv img {
+  position: absolute;
+  max-height: 150%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* border: 10px solid rgb(30, 255, 0); */
+
+}
+
+.infowrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 2rem;
+  padding: 5.5% 18%;
+  /* border: 2px solid rgb(38, 0, 255); */
+  margin: auto;
+
+
+}
+
+p {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+/* =====================================================3boxes Dasboard================================================== */
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+  padding: 0.10em;
+}
+
+.Dasboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: auto;
+  /* border: 3px red solid; */
+  gap: 3rem;
+  padding: 2.5em;
+}
+
+.Dasboard i {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #9effc8;
+
+}
+
+.withdrawBalance i {
+  color: #ffadad;
+}
+
+.TotalBalance i {
+  color: #67c7ff;
+}
+
+.Deposite {
+  width: 34%;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 3.5rem;
+  text-align: center;
+  padding: 5% 2%;
+  /* border: 3px rgb(195, 244, 50) solid; */
+
+}
+
+.Withdraw {
+  width: 34%;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 3.5rem;
+  text-align: center;
+  /* border: 3px rgb(124, 50, 244) solid; */
+  padding: 5% 2%;
+}
+
+.Balance {
+  width: 34%;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 3.5rem;
+  text-align: center;
+  /* border: 3px rgb(100, 204, 119) solid; */
+  padding: 5% 2%;
+
+}
+
+.TotalBalance,
+.withdrawBalance,
+.DepositeBalance {
+  font-size: 2em;
+  padding: 0.05em;
+}
+
+
+/*  ===================================2Boxes Inputsection======================================================================*/
+.InputSection {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: auto;
+  /* border: 3px red solid; */
+  gap: 3rem;
+  padding: 2.5em;
+  width: 100vw;
+}
+
+.Depositeinput {
+  padding: 2rem 2.5rem;
+
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  /* border: 2px solid rgb(189, 223, 18) */
+}
+
+.Withdrawinput {
+  padding: 2rem 2.5rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border-radius: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  /* border: 2px solid rgb(189, 223, 18) */
+}
+
+.Depositeinput input,
+.Withdrawinput input {
+  width: 100%;
+  padding: 0.50em 0.50em;
+  border-radius: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0);
+  /* border: 2px solid rgb(211, 3, 166) */
+}
+
+.Depositeinput type,
+.Withdrawinput type {
+  color: red;
+}
+
+.Depositeinput h3,
+.Withdrawinput h3 {
+  font-size: 1.5em;
+}
+
+.btn1,
+.btn2 {
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.27);
+  border: none;
+  color: rgb(255, 240, 240);
+  text-decoration: none;
+}
+
+.btn3 {
+  margin-left: 48vw;
+  margin-bottom: 0.80vh;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.27);
+  border: 1px solid black;
+  color: rgb(255, 240, 240);
+  text-decoration: none;
+}
+
+/* ====================================Removing the up and down selction arrows of input section============================== */
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+/* for mozilla browser */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+/*------------------------------------------------------ Hiding The MainDashBoard ------------------------------------------------------*/
+/* .DashboardWrap {
+  position: relative;
+  display: none;
+} */
