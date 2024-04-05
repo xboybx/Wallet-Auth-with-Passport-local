@@ -240,6 +240,17 @@ h2 {
   text-decoration: none;
 }
 
+.btnlogout {
+  margin-top: 2vh;
+  margin-bottom: 0.80vh;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.27);
+  border: 1px solid black;
+  color: rgb(255, 240, 240);
+  text-decoration: none;
+}
+
 /* ====================================Removing the up and down selction arrows of input section============================== */
 input[type="number"]::-webkit-inner-spin-button {
   display: none;
